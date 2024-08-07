@@ -1,0 +1,81 @@
+body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: rgba(0, 0,0,0.3);
+      box-sizing: border-box;
+      min-height: 100vh;
+      position: relative;
+      color: white;
+      background-size: cover;
+      background-image: url("./assets/nature_img.jpeg");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.location-input{
+      text-align: center;
+      width: 25%;
+      height: 30px;
+      margin: 0 auto;      
+      display: block;
+      margin-top: 3%;
+      background-color: rgba(255, 255,255,0.2);
+      border: none;
+      border-radius: 50px;
+      border: 1px solid white;
+      color: black;
+}
+
+::placeholder{
+      color: black;
+}
+
+.city{
+      display: flex;
+      justify-content: center;
+      
+}
+
+.temp{
+      display: flex;
+      justify-content: center;
+
+
+}
+
+.climate{
+      display: flex;
+      justify-content: center;
+      padding-top: 5%;
+
+}
+
+.info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: center;
+      border: 1px solid white;
+      width: 40%;
+      margin: 40px auto;
+      padding: 10px 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      align-items: center;
+    }
+
+.weather-icon{
+      display: flex;
+      justify-content: center;
+}
+
+.extra-info{
+      font-size: 0.8rem;
+}
