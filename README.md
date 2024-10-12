@@ -1,6 +1,6 @@
 # Weather App
 
-This is a weather application built using HTML, CSS, and Express (Node.js). The app provides real-time weather updates for any city using the OpenWeather API. Additionally, it changes the background image to reflect the city being searched, utilizing the Unsplash API.
+This is a weather application built using HTML, CSS, and React.js. The app provides real-time weather updates for any city using the OpenWeather API. Additionally, it changes the background image to reflect the city being searched, utilizing the Unsplash API.
 
 ## Features
 
@@ -14,7 +14,7 @@ This is a weather application built using HTML, CSS, and Express (Node.js). The 
 - HTML
 - CSS
 - JavaScript (Node.js)
-- Express.js
+- React.js
 - OpenWeather API
 - Unsplash API
 
